@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
+    background: url(../images/board-bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 1.5em;
+    color: #fff;
+
+}
+
+h1 {
+    margin-bottom: 0;
+    color: goldenrod;
+}
+
+button {
+    font-weight: inherit;
+    border: 0;
+    border-radius: 15px;
+    padding: 1em 0;
+    width: 150px;
+}
+
+button:first-of-type {
+    margin-right: 0.5em;
+}
