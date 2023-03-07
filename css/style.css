@@ -23,12 +23,22 @@ h1 {
 
 button {
     font-weight: inherit;
+    color: rgb(34, 92, 34);
     border: 0;
     border-radius: 15px;
     padding: 1em 0;
     width: 150px;
+    background-color: goldenrod;
 }
 
-button:first-of-type {
-    margin-right: 0.5em;
+
+#new-game-btn,#reset-game-btn{
+    background-color: #fff;
+    color: rgb(151, 123, 51);
+
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5em;
 }
